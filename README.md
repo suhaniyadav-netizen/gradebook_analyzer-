@@ -37,7 +37,7 @@ GradeBook Analyzer CLI is a Python-based tool that helps teachers analyze studen
 - Modular code with comments
 
 ## 6. Sample Output
-
+```
 
 ----- !! Welcome to GradeBook Analyzer CLI by SUHANI YADAV !! -----
 
@@ -83,7 +83,7 @@ aayan           45.00     F
 muskaan         89.00     B
 aradhya         66.00     D
 
-
+```
 ## 7. Author & Course
 
 - Suhani Yadav
