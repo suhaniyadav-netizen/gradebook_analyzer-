@@ -44,8 +44,8 @@ def find_min_score(marks_dict):
 
 # Display statistics
 print("\nStatistics:")
-print(f"Average Marks: {calculate_average(marks):.2f}")
-print(f"Median Marks: {calculate_median(marks):.2f}")
+print(f"Average Marks: {calculate_average(marks):}")
+print(f"Median Marks: {calculate_median(marks):}")
 print(f"Highest Marks: {find_max_score(marks)}")
 print(f"Lowest Marks: {find_min_score(marks)}")
 
@@ -85,7 +85,8 @@ print(f"Failed ({len(failed_students)}): {', '.join(failed_students)}")
 
 # Task 6: Results Table
 print("\nFinal Results Table:")
-print(f"{'Name':<15}{'Marks':<10}{'Grade':<6}")
+print(f"{'Name':}{'Marks':}{'Grade':}")
 print("-" * 31)
 for name in marks:
-    print(f"{name:<15}{marks[name]:<10.2f}{grades[name]:<6}")
+
+    print(f"{name:}{marks[name]:}{grades[name]:}")
