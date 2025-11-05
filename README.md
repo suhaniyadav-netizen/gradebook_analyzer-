@@ -1,8 +1,11 @@
 # gradebook_analyzer
-1. Project Description
+
+## 1. Project Description
+
 GradeBook Analyzer CLI is a Python-based tool that helps teachers analyze student performance after class tests. Instead of using spreadsheets, this script collects student names and marks manually, calculates statistics, assigns grades, and displays results in a clean tabular format.
 
-2.  Learning Objectives
+## 2. Learning Objectives
+
 - Input and store student data using dictionaries
 - Calculate average, median, max, and min scores
 - Assign letter grades using control statements
@@ -10,18 +13,22 @@ GradeBook Analyzer CLI is a Python-based tool that helps teachers analyze studen
 - Display results in a formatted table
 - Use modular functions and loops for clean code
 
-3. Project Structure
-gradebook_analyzer/
+## 3. Project Structure
+
+
 │
-└── gradebook.py       # Main script with all logic
+└── gradebook.py      # Main script with all logic
 
- 4. How to Run
-- Open gradebook.py in your Python IDE or terminal.
-- Enter the number of students.
-- Input each student's name and marks.
-- View statistics, grades, pass/fail summary, and results table.
 
-5. Features
+## 4. How to Run
+
+1. Open gradebook.py in your Python IDE or terminal.
+2. Enter the number of students.
+3. Input each student's name and marks.
+4. View statistics, grades, pass/fail summary, and results table.
+
+## 5. Features
+
 - Manual input for student names and marks
 - Grade assignment using if–elif–else logic
 - Grade distribution count
@@ -29,7 +36,8 @@ gradebook_analyzer/
 - Formatted output table
 - Modular code with comments
 
-6. Sample Output 
+## 6. Sample Output
+
 
 ----- !! Welcome to GradeBook Analyzer CLI by SUHANI YADAV !! -----
 
@@ -67,21 +75,19 @@ Passed (4): suhani yadav, aayan, muskaan, aradhya
 Failed (1): prabhat bhatia
 
 Final Results Table:
-Name           Marks     Grade
+Name            Marks     Grade
 -------------------------------
-suhani yadav   100.00    A
-prabhat bhatia 29.00     F
-aayan          45.00     F
-muskaan        89.00     B
-aradhya        66.00     D
+suhani yadav    100.00    A
+prabhat bhatia  29.00     F
+aayan           45.00     F
+muskaan         89.00     B
+aradhya         66.00     D
 
 
-7. Author & Course
-Suhani Yadav
-2501410032
-B.Tech CSE Cyber Security(First Semester)
-5th November 2025
-Programming With Python - Lab Assignment 2
+## 7. Author & Course
 
-
-
+- Suhani Yadav
+- 2501410032
+- B.Tech CSE Cyber Security(First Semester)
+- 5th November 2025
+- Programming With Python - Lab Assignment 2
